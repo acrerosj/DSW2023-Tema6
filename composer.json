@@ -1,0 +1,19 @@
+{
+    "name": "andres/tema6",
+    "description": "programación por capas",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andres\\Tema6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrés Crespo",
+            "email": "acrerosj@canariaseducacion.es"
+        }
+    ]
+}
