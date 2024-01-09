@@ -1,6 +1,12 @@
 <?php
+
+use Philo\Blade\Blade;
+
 require_once "../vendor/autoload.php";
 
+$views = '../src/views';
+$cache = '../cache';
+$blade = new Blade($views, $cache);
 // Router system
 $router = new AltoRouter();
 // List of routes
